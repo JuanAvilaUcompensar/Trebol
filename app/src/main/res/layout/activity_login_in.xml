@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login_In">
+
+    <ImageView
+        android:id="@+id/logoTrebol"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+
+        tools:srcCompat="@drawable/logo_trebol" />
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center"
+        android:hint="Nombre"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#B8B8B8"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center"
+        android:hint="Correo"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#B8B8B8"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#B8B8B8"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwdConfirmationTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#B8B8B8"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@android:drawable/editbox_background_normal"
+        android:paddingTop="20dp"
+
+        android:paddingBottom="20dp"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoU"
+        android:layout_width="305dp"
+
+        android:layout_height="96dp"
+        android:background="@drawable/logo_u"
+
+        android:scrollbarSize="28dp"
+        tools:srcCompat="@drawable/logo_u"
+        tools:visibility="visible" />
+
+</LinearLayout>
